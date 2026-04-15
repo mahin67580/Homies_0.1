@@ -120,7 +120,7 @@ export default function ShoppingPage() {
     const descChanged = member.description !== member.originalDescription;
     
     if (!amountChanged && !descChanged) {
-      toast.info('No changes to save');
+     toast('No changes to save');
       return;
     }
 

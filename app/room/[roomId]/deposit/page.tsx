@@ -103,7 +103,7 @@ export default function DepositPage() {
 
     // If amount hasn't changed, don't save
     if (member.amount === member.originalAmount) {
-      toast.info('No changes to save');
+      toast('No changes to save');
       return;
     }
 
